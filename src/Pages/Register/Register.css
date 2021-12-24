@@ -1,0 +1,17 @@
+#registrationForm {
+  max-width: 650px;
+  width: 98%;
+}
+#registrationForm .fieldContainer {
+  width: 50%;
+}
+#registrationForm .fieldContainer:nth-child(2) {
+  width: 100%;
+}
+#registrationForm input[type="submit"] {
+  margin: 10px calc(50% - 36px);
+  border-radius: 3px;
+}
+.ListBody {
+  margin: 8px;
+}

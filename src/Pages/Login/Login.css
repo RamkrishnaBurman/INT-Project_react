@@ -1,0 +1,104 @@
+feDiffuseLighting {
+  float: left;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.formBody {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.LogoCon {
+  float: left;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.LogoCon img {
+  width: 80px;
+  height: auto;
+  margin: auto;
+}
+.LogoCon p {
+  width: 100%;
+  text-align: center;
+  margin-top: -5px;
+  font-size: 20px;
+  font-style: italic;
+  color: #2093b2;
+}
+.formBody a {
+  float: right;
+  text-decoration: none !important;
+  color: #2093b2;
+}
+.formBody {
+  float: left;
+  width: 100%;
+  height: calc(100vh - 60px);
+  position: relative;
+  display: flex;
+}
+.formBody form {
+  margin: auto;
+  width: 300px;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+  padding: 25px 15px;
+  box-sizing: border-box;
+}
+.formBody .fieldContainer {
+  float: left;
+  width: 100%;
+}
+.formBody .fieldContainer:first-child {
+  margin-top: 25px;
+}
+.formBody form label,
+.formBody form .error {
+  float: left;
+  width: 100%;
+  margin: 3px 0;
+  min-height: 21px;
+}
+.formBody form .error {
+  color: #f00;
+  margin: 0 0 5px 0;
+  font-size: 12px;
+}
+.formBody form input[type="text"],
+.formBody form input[type="password"] {
+  float: left;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.formBody form input[type="submit"] {
+  float: left;
+  padding: 5px 15px;
+  background: #2874f0;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.message {
+  float: left;
+  width: calc(100% - 30px);
+  text-align: center;
+  font-size: 12px;
+  padding: 9px 0;
+  margin: 0 15px;
+}
+.red {
+  background: rgba(255, 0, 0, 0.1);
+  color: rgb(170, 0, 0);
+}
+.green {
+  background: rgb(4 255 0 / 10%);
+  color: rgb(7 114 40);
+}
